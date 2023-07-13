@@ -111,7 +111,7 @@ const props = defineProps({
         <div class="py-1 px-4 mx-auto max-w-screen-xl  lg:py-16 grid lg:grid-cols-2 gap-12 lg:gap-16">
             <div class="flex flex-col justify-center">
                 <h1
-                    class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-dark">
+                    class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-5xl dark:text-dark">
                     {{ slider.judul }}</h1>
                 <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
                     {{ slider.konten }}</p>
