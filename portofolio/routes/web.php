@@ -1,8 +1,8 @@
 <?php
 
-use App\Http\Controllers\FrontController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\FrontController;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -20,6 +20,7 @@ use Inertia\Inertia;
 */
 
 Route::get('/', [FrontController::class, 'index']);
+
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
