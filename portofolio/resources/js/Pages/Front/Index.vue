@@ -100,7 +100,7 @@ const props = defineProps({
                             class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-dark md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-dark md:dark:hover:bg-transparent">Pricing</a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="#contact"
                             class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-dark md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-dark md:dark:hover:bg-transparent">Contact</a>
                     </li>
                 </ul>
@@ -183,22 +183,85 @@ const props = defineProps({
         </div>
     </section>
     <!-- Sectambahan -->
-    <section class="bg-gray-900">
-        <div class="py-1 px-4 mx-auto max-w-screen-xl  lg:py-16 grid lg:grid-cols-2 gap-12 lg:gap-16">
-            <div class="flex flex-col justify-center">
+    <section class="bg-gray-800">
+        <div class="py-1 px-4 mx-auto max-w-screen-xl grid lg:grid-cols-2 ">
+            <div class="flex flex-col justify-center lg:py-6 grid lg:grid-cols-2 ">
                 <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-                    <img src="img/Aguss.jpg" class="rounded-xl border-solid border-4 border-white h-90 ml-0.5" alt=" Logo" />
-                    <img src="img/css.png" class="h-40 ml-0.5" alt=" Logo" />
-                    <img src="img/js.png" class="h-40 ml-0.5" alt=" Logo" />
-                    <img src="img/htmll.png" class="h-40 ml-0.5" alt=" Logo" />
-                    <img src="img/node.png" class="h-40 ml-0.5" alt=" Logo" />
-                    
+                    <img src="img/Aguss.jpg" class="rounded-xl border-solid border-4 border-white h-80 ml-0.5" alt=" Logo" />
+                 
+                </div>
+                
+            </div>
+            <div class="flex flex-col mt-10 ">
+                <div class="flex flex-col  sm:flex-row sm:space-y-0 sm:space-x-1  ">
+                    <h2 class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl text-white">My Skill !
+                    </h2>
+                
+                 
+                </div>
+                <div class="flex flex-col  sm:flex-row sm:space-y-0 sm:space-x-1 ">
+                    <h2 class="font-header text-4xl text-primary sm:text-2xl lg:text-2xl text-white">Saya memiliki beberapa skill dibidang Html dan Css selain itu Saya juga lumayan mahir di dalam bidang Node Js
+                    </h2>
+                
                  
                 </div>
                 
             </div>
         </div>
     </section>
+    <section class="bg-gray-50 border-t border-gray-200">
+        <div class="py-1 px-4 mx-auto max-w-screen-xl grid flex flex-col justify-center  ">
+            <div class="flex flex-col justify-center lg:py-6 grid lg:grid-cols-0 gap-3 lg:gap-8">
+                <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 mt-8 mb-8">
+                    <div class="space-y-4 sm:flex-row sm:space-y-0 sm:space-x-1">
+                        <img src="img/htmll.png" class="rounded-xl border-white h-40 ml-0.5" alt=" Logo" />
+                    </div>
+                    <div class="space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+                        <img src="img/css.png" class="rounded-xl border-white h-40 ml-0.5" alt=" Logo" />
+                    </div>
+                    <div class="space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+                        <img src="img/js.png" class="rounded-xl border-white h-40 ml-0.5" alt=" Logo" />
+                    </div>
+                    <div class="space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+                        <img src="img/node.png" class="rounded-xl border-white h-40 ml-0.5" alt=" Logo" />
+                    </div>
+                        
+                </div>    
+            </div>
+        </div>
+    </section>
+<!-- Social media -->
+    <section class="bg-gray-900" id="contact">
+        <div class="w-full min-h-screen bg-blue-80 p-6">
+            <h1 class="font-bold text-xl text-center md:text-3xl text-white md:mt-12 mb-4">Social <span class="text-red-500">Media</span></h1>
+<!-- Card  -->
+            <div class="flex flex-wrap justify-center">
+
+                <div class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+                    <img src="img/igg.png" alt="" class="h-30 m-2">
+                    <h2 class="text-center px-2 pb-5">Instagram</h2>  
+                    <a href="https://instagram.com/ini.agusss" class="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500">Swipe</a>
+                </div>
+                <div class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+                    <img src="img/github.png" alt="" class="h-30 m-2 ">
+                    <h2 class="text-center px-2 pb-5">GitHub</h2>  
+                    <a href="https://github.com/agus4385" class="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500">Swipe</a>
+                </div>
+                <div class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+                    <img src="img/gmail.png" alt="" class="h-30 m-2">
+                    <h2 class="text-center px-2 pb-5">Email</h2>  
+                    <a href="mailto:namapenggunanyagus@gmail.com" class="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500">Swipe</a>
+                </div>
+                <div class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+                    <img src="img/fb.png" alt="" class="h-30 m-2">
+                    <h2 class="text-center px-2 pb-5">Facebook</h2>  
+                    <a href="https://www.facebook.com/profile.php?id=100016708999087" class="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500">Swipe</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
     <!-- Footer -->
     <footer>
         <div className="mx-auto max-w-screen-xl  px-4 sm:px-6">
@@ -271,11 +334,11 @@ const props = defineProps({
                     <h6 className="text-gray-800 font-medium mb-2">Company</h6>
                     <ul className="text-sm">
                         <li className="mb-2">
-                            <a href="#0"
+                            <a href="#home"
                                 className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
                         </li>
                         <li className="mb-2">
-                            <a href="#0"
+                            <a href="#about"
                                 className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About
                                 us</a>
                         </li>
