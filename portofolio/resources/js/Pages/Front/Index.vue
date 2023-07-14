@@ -419,7 +419,7 @@ const props = defineProps({
                         </a>
                     </li>
                 </ul>
-                <div className="text-sm text-gray-600 mr-4">&copy; Amikom. All rights reserved.</div>
+                <div className="text-sm text-gray-600 mr-4">&copy; Amikom. All rights reserved !.</div>
             </div>
         </div>
 </footer></template>
